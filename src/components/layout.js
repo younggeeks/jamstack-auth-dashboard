@@ -6,7 +6,7 @@ import { IdentityContextProvider } from "react-netlify-identity";
 
 const Layout = ({ children }) => {
   return (
-    <IdentityContextProvider url="https://jamsam-auth.netlify.app">
+    <IdentityContextProvider url="https:/jamstack-auth-fem.netlify.app">
       <header>
         <Link to="/">Jamstack App</Link>J
       </header>
