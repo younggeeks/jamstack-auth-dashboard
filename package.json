@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "gatsby develop"
+    "develop": "gatsby develop",
+    "build": "gatsby build"
   },
   "dependencies": {
     "@reach/dialog": "^0.10.3",
